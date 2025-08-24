@@ -1,0 +1,32 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pymupdf==1.23.8
+pytesseract==0.3.10
+Pillow==10.1.0
+# Computer Vision (free alternative to Mathpix)
+opencv-python==4.8.1.78
+# Natural Language Processing (free alternative to OpenAI)
+nltk==3.8.1
+# Google Gemini API (free tier - 15 req/min, 1500 req/day)
+google-generativeai==0.3.2
+sentence-transformers==2.2.2
+hdbscan==0.8.33
+bertopic==0.15.0
+# openai==1.3.7  # Removed - using free alternatives instead
+transformers==4.36.0
+torch==2.1.1
+numpy==1.24.3
+pandas==2.1.4
+scikit-learn==1.3.2
+sympy==1.12
+matplotlib==3.8.2
+coqui-tts==0.20.0
+requests==2.31.0
+python-dotenv==1.0.0
+aiofiles==23.2.1
+base64
+json
+os
+pathlib
