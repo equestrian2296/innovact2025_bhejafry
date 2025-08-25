@@ -162,14 +162,14 @@ class RoadmapResponse(BaseModel):
     total_estimated_hours: float
     difficulty_progression: str
 
-# Complete Processing Schemas
-class CompleteProcessingRequest(BaseModel):
+# Complete Pipeline Schemas
+class CompletePipelineRequest(BaseModel):
     pdf_path: str
     learning_profile: LearningProfile
     preferences: UserPreferences
     study_duration_weeks: int = 12
 
-class CompleteProcessingResponse(BaseModel):
+class CompletePipelineResponse(BaseModel):
     pdf_extraction: PDFExtractionResponse
     topic_segmentation: TopicSegmentationResponse
     learning_items: List[Dict[str, Any]]
