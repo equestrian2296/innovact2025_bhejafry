@@ -15,7 +15,27 @@ from services.math_parser import MathParser
 from services.personalization import PersonalizationService
 from services.roadmap_generator import RoadmapGenerator
 from services.gemini_service import GeminiService
-from models.schemas import *
+from models.schemas import (
+    PDFExtractionResponse,
+    TopicSegmentationResponse,
+    LearningItemsResponse,
+    TTSResponse,
+    TextSimplificationResponse,
+    MicroLessonsResponse,
+    MathParsingResponse,
+    PersonalizationResponse,
+    RoadmapResponse,
+    CompletePipelineResponse, 
+    TopicSegmentationRequest,
+    LearningItemsRequest,
+    TTSRequest,
+    TextSimplificationRequest,
+    MicroLessonsRequest,
+    MathParsingRequest,
+    PersonalizationRequest,
+    RoadmapRequest,
+    CompletePipelineRequest
+)
 
 load_dotenv()
 
